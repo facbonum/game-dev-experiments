@@ -1,0 +1,18 @@
+# Build artifacts
+# .gitkeep is used to retain empty folders in git
+# You can safely delete or rename it if the folder is later populated
+/build/*
+!/build/.gitkeep
+*.o
+*.exe
+*.dll
+
+# VSCode/editor files
+.vscode/
+*.log
+*.tmp
+*.bak
+
+# OS/metadata
+.DS_Store
+Thumbs.db
