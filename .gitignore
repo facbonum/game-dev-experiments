@@ -6,6 +6,15 @@
 *.o
 *.exe
 *.dll
+*.sms
+*.gg
+
+node_modules/
+
+# Build output
+dist/
+
+**/nul
 
 # VSCode/editor files
 .vscode/

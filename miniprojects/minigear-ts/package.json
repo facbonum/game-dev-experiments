@@ -1,0 +1,14 @@
+{
+  "name": "minigear-ts",
+  "version": "1.0.0",
+  "description": "MiniGear emulator in TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "live-server --open=./index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "^5.1.6"
+  }
+}
